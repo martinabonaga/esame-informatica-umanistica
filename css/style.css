@@ -79,7 +79,7 @@ Cover
 
 .cover{
     height: 70%;
-    background-image: url(file:///Users/martinabonaga/Downloads/Cover/3.png);
+    background-image: url(file:///Users/martinabonaga/Desktop/sitoesame/img/cover_homepage.png);
     background-size: cover;
     -o-background-size:cover;
     -moz-background-size:cover;
@@ -217,7 +217,7 @@ Footer
 
 /*Contattaci*/
 .consigli{margin-top: 100px;}
-.cover_contattaci{background-image: url(file:///Users/martinabonaga/Downloads/cover_contattaci.png);}
+.cover_contattaci{background-image: url(file:///Users/martinabonaga/Desktop/sitoesame/img/cover_contattaci.png);}
 .col-12{margin-left: -15px;}
 
 
