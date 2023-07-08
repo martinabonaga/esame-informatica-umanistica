@@ -79,7 +79,7 @@ Cover
 
 .cover{
     height: 70%;
-    background-image: url(file:///img/cover_homepage.png);
+    background-image: url(https://github.com/martinabonaga/esame-informatica-umanistica/blob/main/img/cover_homepage.png?raw=true);
     background-size: cover;
     -o-background-size:cover;
     -moz-background-size:cover;
@@ -217,7 +217,7 @@ Footer
 
 /*Contattaci*/
 .consigli{margin-top: 100px;}
-.cover_contattaci{background-image: url(file:///img/cover_contattaci.png);}
+.cover_contattaci{background-image: url(https://github.com/martinabonaga/esame-informatica-umanistica/blob/main/img/cover_contattaci.png?raw=true);}
 .col-12{margin-left: -15px;}
 
 
@@ -241,8 +241,7 @@ Tablet
 .header_logo{width: 12%; margin-top: 2px;}
 iframe{height: auto;}
 .banner_polimare{height: 63%;}
-.banner_finestrella{margin-top: -25px;
-}
+.banner_finestrella{margin-top: -25px;}
 }
 /*----------------
 Smartphone
