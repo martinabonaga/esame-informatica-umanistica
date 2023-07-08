@@ -79,7 +79,7 @@ Cover
 
 .cover{
     height: 70%;
-    background-image: url(https://github.com/martinabonaga/esame-informatica-umanistica/blob/main/img/cover_homepage.png?raw=true);
+    background-image: url(https://raw.githubusercontent.com/martinabonaga/esame-informatica-umanistica/main/img/cover_homepage.png);
     background-size: cover;
     -o-background-size:cover;
     -moz-background-size:cover;
@@ -217,7 +217,7 @@ Footer
 
 /*Contattaci*/
 .consigli{margin-top: 100px;}
-.cover_contattaci{background-image: url(https://github.com/martinabonaga/esame-informatica-umanistica/blob/main/img/cover_contattaci.png?raw=true);}
+.cover_contattaci{background-image: url(https://raw.githubusercontent.com/martinabonaga/esame-informatica-umanistica/main/img/cover_contattaci.png);}
 .col-12{margin-left: -15px;}
 
 
