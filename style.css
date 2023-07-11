@@ -1,0 +1,323 @@
+html,body{
+    height: 100%;
+}
+
+body{background: lightgoldenrodyellow;}
+
+/*-----------
+general
+-----------*/
+.animate{
+    -webkit-transition: all 0.3s ease-out;
+               transition: all 0.3s ease-out;
+   
+}
+h1{color: #FAC401;text-shadow: -3px 0 #DD6624, 0 3px #DD6624, 3px 0 #DD6624, 0 -3px #DD6624;}
+h2,h3{color: #FF6B6E; font-family:'Lilita One', cursive;} 
+.button{display: inline-block;background: white; color: #000; padding: 15px 30px; border-radius: 3px; text-decoration: none;}
+p{line-height: 24px; font-family: 'Aleo', serif; font-size: 16px;}
+a{color: #16dd94;}
+a:hover{color: #1af3a4;}
+.btn{background-color: lightblue; border-color: #3AE0E0;}
+.btn-primary{color: black; font-family: 'Aleo', serif;}
+.btn:hover{background-color: #44A9CC;}
+.intro{text-align: center; margin-right: 100px; margin-left: 100px; margin-top: 60px;font-family: 'Aleo', serif;}
+.buttoncontainer{display: block; margin: 0 auto; width: 140px;}
+
+/*-----
+header
+-------*/
+
+.header{background: #DD6624;
+}
+
+.header_logo{
+    color: #fff; 
+    float: left;
+    display: block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 7px;
+    width: 100px;
+}
+
+
+.header_menu{
+    float: right;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.header_menu_item{
+    display: inline-block;
+    font-family: 'Aleo', serif;
+    font-size: 20px;
+}
+
+
+.header_menu_item a{
+    color: #fff; 
+    display: block;
+    padding: 40px;
+}
+
+.header_menu_item a:hover{background: #DB9214;}
+
+.header_icon-bar{display: block; float: right; padding: 50px; padding-right: 20px; display: none;}
+.header_icon-bar span{
+    display: block; 
+    height: 3px;
+    width: 30px;
+    background: #fff;
+    margin-bottom: 5px;}
+
+
+/*----------
+Cover
+------------*/
+
+.cover{
+    height: 70%;
+    background-image: url(https://raw.githubusercontent.com/martinabonaga/esame-informatica-umanistica/main/img/cover_homepage.png);
+    background-size: cover;
+    -o-background-size:cover;
+    -moz-background-size:cover;
+    background-position: center center;
+    
+}
+
+.cover_filtro{
+    background:black;
+    width: 100%;
+    height: 70%;
+    position: absolute;
+    z-index: 0;
+    opacity: 0.5;
+}
+.cover_caption{
+    display: table;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    padding: 0 20px;
+}
+
+.cover_caption_copy{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color: #EB563A;
+    font-family: 'Lilita One', cursive;
+    font-size: 100px;
+}
+
+
+
+/*-----
+Cards
+-------*/
+
+.card{width: 30%; margin: 0 1.5%; background-color: #fff; float: left; margin-bottom: 7px;margin-top: 50px;height: 250px;}
+.card-img{width:100%; height: 250px;}
+
+.card-title{text-align: center; margin-top: 70px; font-family: 'Lilita One', cursive;color: #FAC401;text-shadow: -1px 0 #DD6624, 0 1px #DD6624, 1px 0 #DD6624, 0 -1px #DD6624;}
+
+
+/*-----
+Banner
+------*/
+.banner{background-color: #fff;height: 50%;margin-top: 40px;}
+.banner_image{width: 30%; float: left; height: 100%;
+    background-size: cover;
+    -o-background-size:cover;
+    -moz-background-size:cover;
+    background-position: center center;}
+.banner_copy{width: 70%; float: left; height: 100%; display: table;}
+.banner_copy_text{display: table-cell; vertical-align: middle; padding: 30px; font-size: 100%;}
+.banner_copy_text h3{font-size: 36px; margin-bottom: 0; color: #FF6B6E;font-family: 'Lilita One', cursive;}
+.banner_polimare{height: 56%;}
+
+
+
+
+
+
+
+
+
+
+/*------
+Footer
+-------*/
+.footer{background-color: #FF6B6E; padding: 10px; color: #fff; margin-top: 100px;text-align: center; height: auto;}
+.fa-spotify,.fa-instagram{color: white;}
+.fa-spotify a:hover{color: #1af3a4;}
+
+
+
+
+
+
+
+
+/*Milano*/
+.Milano_copy{max-width: 800px; margin:0px auto; margin-top: -60px;background: #fff; padding: 20px 40px; position: relative; z-index: 1;}
+.cover_milano{background-image: url(https://images.pexels.com/photos/620308/pexels-photo-620308.jpeg);}
+.banner_coloris{background-image: url(https://www.sporteimpianti.it/wp-content/uploads/2020/09/citylife-coloris.jpg);}
+.banner_pozzi{background-image: url(https://www.milanotobe.com/wp-content/uploads/2021/03/Schermata-2021-03-02-alle-10.45.05-875x1024.png);}
+.banner_bar{background-image: url(https://i0.wp.com/eventaddicted.com/storage/2022/07/eventaddicted-digital-magazine-eventi-Milano-zankyou-magazine-eln-cafe-instagram-8.jpeg-scaled.jpeg?fit=2560%2C1707&ssl=1);}
+
+/*Bologna*/
+.cover_bologna{background-image: url(https://www.dovedormire.info/wp-content/uploads/sites/119/bologna.jpg);}
+.banner_cavour{background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Walkway%2C_Bologna.jpg/640px-Walkway%2C_Bologna.jpg);}
+.banner_finestrella{background-image: url(https://images.unsplash.com/photo-1579964459558-66490e7e7748?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80);}
+.banner_trecentoscalini{background-image: url(https://www.cappellacciamerenda.it/wp-content/uploads/2021/05/colline-di-bologna-e-san-luca-dai-300-scalini-1024x768.jpg);}
+
+
+
+
+
+
+/*Roma*/
+.cover_roma{background-image: url(https://images.pexels.com/photos/2676602/pexels-photo-2676602.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);}
+.banner_coppedé{background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Quartiere_Copped%C3%A9_13.jpg/640px-Quartiere_Copped%C3%A9_13.jpg);}
+.banner_milvio{background-image: url(https://upload.wikimedia.org/wikipedia/commons/f/f3/Roma_Ponte_Milvio.jpg);}
+.banner_piccolomini{background-image: url(https://offloadmedia.feverup.com/secretroma.com/wp-content/uploads/2020/11/28180511/via-piccolomini.png);}
+
+
+
+
+
+/*Napoli*/
+.cover_napoli{background-image: url(https://cdn.pixabay.com/photo/2019/11/24/09/47/naples-4649019_1280.jpg);}
+.banner_spiriti{background-image: url(https://fai-platform.imgix.net/uploads/f51d7a82-0fbd-4b0b-9449-e1bf64a24916.jpg);}
+.banner_mannajuolo{background-image: url(https://cdn.pixabay.com/photo/2019/09/10/19/57/scale-4467187_1280.jpg);}
+.banner_mergellina{background-image: url(https://a.travel-assets.com/findyours-php/viewfinder/images/res70/350000/350403-Via-Caracciolo-E-Lungomare-Di-Napoli.jpg);}
+
+
+
+
+
+/*Bari*/
+.cover_bari{background-image: url(https://www.artribune.com/wp-content/uploads/2022/03/Bari.jpg);}
+.banner_meraviglia{background-image: url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/25/2c/73/meraviglia.jpg?w=1200&h=1200&s=1);}
+.banner_polignano{background-image: url(https://c1.wallpaperflare.com/preview/606/79/733/polignano-puglia-sea-cliff.jpg);}
+.banner_monopoli{background-image: url(https://www.tasteoffreedom.it/wp-content/uploads/2022/07/cosa-vedere-a-monopoli-la-miniguida-pratica-scaled.jpg );}
+
+
+
+
+/*Catania*/
+.cover_catania{background-image: url(https://cdn.pixabay.com/photo/2017/06/27/15/26/it-2447750_1280.jpg);}
+.banner_grotta{background-image: url(https://www.milanocittastato.it/wp-content/uploads/2023/03/credits-this-curly-cooks-ig-corso-dacqua-nel-ristorante.jpg);}
+.banner_biscari{background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Palazzo_Biscari_2017-04-26n.jpg/800px-Palazzo_Biscari_2017-04-26n.jpg?20170623115142);}
+.banner_berillo{background-image: url(https://101-zone.com/wp-content/uploads/2022/12/0A1A4673-c2-1620x911.jpg);}
+
+
+/*Contattaci*/
+.consigli{margin-top: 100px;}
+.cover_contattaci{background-image: url(https://raw.githubusercontent.com/martinabonaga/esame-informatica-umanistica/main/img/cover_contattaci.png);}
+.col-12{margin-left: -15px;}
+
+
+
+/*Documentazione*/
+.wireframe1{width: 50%; height: auto; margin-bottom: 5%; margin-right: 5%;}
+.wireframe2{width: 30%; height: auto;margin-bottom: 5%;}
+.architettura{width: 50%; height: auto; margin-bottom: 5%; margin-left: 20%;}
+.risultati{width: 60%; height: auto; margin-bottom: 10%;}
+
+
+
+
+/*----------------
+Tablet
+-------------*/
+@media (max-width: 998px){
+.banner{height: 58%;}
+.banner_image,
+.banner_copy{width: 50%; height: 100%;}
+.intro{margin-right: 10%; margin-left: 10%;}
+.card{width: 60%; margin-left: 20%;}
+.header_logo{width: 12%; margin-top: 2px;}
+iframe{height: auto;}
+.banner_polimare{height: 63%;}
+.banner_finestrella{margin-top: -25px;}
+}
+/*----------------
+Smartphone
+-------------*/
+@media (max-width: 767px){
+    .header{position:fixed; width: 100%; z-index: 100;}
+    .header_icon-bar{display: block;}
+    .header_menu{width: 100%; height: 0px; overflow: hidden;}
+    .header_menu_item{display: block;}
+    .header_menu_item a{padding-bottom: 10px;}
+    .is-open{height: 250px; overflow: auto;}
+    .intro{margin-left: 10%; margin-right: 10%;}
+    .header_logo{width: 30%; margin-top: 3px;}
+    .Milano_copy{margin-bottom: 100px;}
+
+    /*--cover--*/
+    .cover{height:100%}
+    .cover_filtro{background:black;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        z-index: 0;
+        opacity: 0.5;}
+        
+
+    /*----
+    Cards
+    -----*/
+    .card{width: 90%; margin: 5%;}
+
+    /*-----
+    Banner
+    -----*/
+    .banner{height:128%;margin-bottom: 0px;}
+    .banner_image,
+    .banner_copy{width: 100%; height: 50%;}
+    .banner_centrale{margin-bottom: 200px;}
+    .banner_bolo{margin-bottom: 90px;}
+    .banner_bologna{height: 160%;}
+    .banner_polimare{margin-bottom: 310px;}
+    .banner_mopo{height: 135%;}
+    
+
+
+
+    /*----
+    Footer
+    -----*/
+    .footer{margin-top: 100px;}
+
+}
+
+
+
+
+
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+  * html .clearfix             { zoom: 1; } /* IE6 */
+  *:first-child+html .clearfix { zoom: 1; } /* IE7 */
+  
+
+  *,
+  *:before,
+  *:after {
+    -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+      box-sizing: border-box;
+  }
